@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Ivy 2028 Digest — 2026-07-06</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap');
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#0e0f11; color:#e8eaed; font-family:'DM Sans',sans-serif; font-size:14px; line-height:1.6; min-height:100vh; }
+body::before { content:''; position:fixed; inset:0; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E"); pointer-events:none; z-index:100; opacity:0.4; }
+.page { max-width:1100px; margin:0 auto; padding:40px 32px 80px; position:relative; z-index:1; }
+.header { border-bottom:1px solid #2a2d33; padding-bottom:32px; margin-bottom:40px; }
+.header-label { font-size:11px; color:#f0a500; letter-spacing:0.15em; text-transform:uppercase; margin-bottom:12px; font-weight:500; }
+h1 { font-family:'DM Serif Display',serif; font-size:38px; font-weight:400; line-height:1.15; color:#e8eaed; margin-bottom:8px; }
+h1 em { color:#f0a500; font-style:italic; }
+.header-sub { color:#8a9099; font-size:13px; max-width:560px; }
+.notice { background:#1a1700; border:1px solid #f0a500; border-radius:6px; padding:12px 16px; margin-top:16px; font-size:12px; color:#f0c040; line-height:1.5; }
+.notice strong { color:#f0a500; }
+.stats-row { display:flex; gap:10px; margin-top:20px; flex-wrap:wrap; }
+.tab-bar { display:flex; gap:4px; margin-bottom:24px; flex-wrap:wrap; }
+.tab { padding:8px 16px; font-size:12px; font-weight:500; border:1px solid #2a2d33; background:#15171a; cursor:pointer; color:#64748b; border-radius:6px; white-space:nowrap; }
+.tab:hover { background:#1c1f23; color:#e8eaed; }
+.tab-panel { }
+.attention-grid { display:grid; gap:12px; }
+footer { text-align:center; padding:24px; color:#4a5260; font-size:11px; border-top:1px solid #2a2d33; margin-top:40px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <div class="header-label">Weekly Digest</div>
+    <h1>Ivy-<em>2028</em></h1>
+    <div class="header-sub">2026-07-06 — Grade 10 &rarr; 11 (Class of 2028) — CT + National</div>
+    <div class="stats-row">
+      <div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;">
+        <span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">65</span>
+        <span style="font-size:11px;color:#4a5260;">Total</span>
+      </div>
+      <div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;">
+        <span style="display:block;font-size:18px;font-weight:600;color:#ff5c5c;">0</span>
+        <span style="font-size:11px;color:#4a5260;">Urgent</span>
+      </div>
+      <div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;">
+        <span style="display:block;font-size:18px;font-weight:600;color:#f0c040;">3</span>
+        <span style="font-size:11px;color:#4a5260;">Prep Needed</span>
+      </div>
+      <div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">9</span><span style="font-size:11px;color:#4a5260;">Science & Math</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">1</span><span style="font-size:11px;color:#4a5260;">Scholarships</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">7</span><span style="font-size:11px;color:#4a5260;">Law & Civics</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">5</span><span style="font-size:11px;color:#4a5260;">Exams</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">11</span><span style="font-size:11px;color:#4a5260;">Writing & Humanities</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">10</span><span style="font-size:11px;color:#4a5260;">Summer Programs</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">3</span><span style="font-size:11px;color:#4a5260;">General</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">7</span><span style="font-size:11px;color:#4a5260;">Fencing</span></div>
+    </div>
+  </div>
+
+  <div class="tab-bar">
+    <button class="tab active" data-tab="attention" style="color:#f0a500;border-color:#f0a500;background:#1a1700;">⚠️ Attention (0)</button>
+    <button class="tab" data-tab="science_math" style="color:#64748b; background:#1c1f23;color:#e8eaed;">Science & Math (9)</button>
+<button class="tab" data-tab="scholarships" style="color:#64748b;">Scholarships (1)</button>
+<button class="tab" data-tab="law_civics" style="color:#64748b;">Law & Civics (7)</button>
+<button class="tab" data-tab="exams" style="color:#64748b;">Exams (5)</button>
+<button class="tab" data-tab="writing_humanities" style="color:#64748b;">Writing & Humanities (11)</button>
+<button class="tab" data-tab="summer_programs" style="color:#64748b;">Summer Programs (10)</button>
+<button class="tab" data-tab="general_competitions" style="color:#64748b;">General (3)</button>
+<button class="tab" data-tab="fencing" style="color:#64748b;">Fencing (7)</button>
+
+    <button class="tab" data-tab="gone" style="color:#4a5260;">💀 Gone (97)</button>
+  </div>
+
+  <div class="tab-panel" id="tab-attention" style="display:block;">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+      <h2 style="font-family:'DM Serif Display',serif;font-size:22px;font-weight:400;color:#e8eaed;">⚠️ Attention</h2>
+      <span style="color:#4a5260;font-size:13px;">0 urgent items</span>
+    </div>
+    <div class="attention-grid"><p style="color:#4a5260;">Nothing urgent this week.</p></div>
+  </div>
+
+  <div class="tab-panel" id="tab-science_math" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Science & Math</h2>
+    <span style="color:#4a5260;font-size:13px;">9 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://maa.org/maa-invitational-competitions/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">AIME (American Invitational Mathematics Examination)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>AIME I: Early February 2027. AIME II: Mid-February 2027. Invitation only based on AMC 10/12 scores.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">No additional fee for invited students (covered by AMC registration).</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://maa.org/student-programs/amc/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">AMC 10/12 (American Mathematics Competitions)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>AMC 10A/12A: November 5, 2026. AMC 10B/12B: November 13, 2026. Regular registration deadline: mid-October 2026. Late registration: late October 2026 ($115).<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Approximately $75 per student regular registration, $115 late registration.</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://breakthroughjuniorchallenge.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Breakthrough Junior Challenge</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Applications open May 2026. Submission deadline: September 15, 2026.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free to enter.</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://ctjshs.com/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Connecticut High School Science &amp; Humanities Symposium (CT HSSHS / CT JSHS)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>2026 event: February 28, 2026 (Saturday). Pre-week online poster exhibition: February 23-27, 2026. Registration deadline for presenters: TBA for 2027 (likely January 2027).<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free to participate.</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><span style="color:#9aa0a6;font-weight:500;font-size:14px;">MIT THINK Scholars Program<span style="background:#e74c3c;color:#fff;padding:1px 8px;border-radius:12px;font-size:10px;font-weight:700;margin-left:8px;vertical-align:middle;">LOW</span> <span style="background:#e74c3c;color:#fff;padding:1px 8px;border-radius:12px;font-size:10px;font-weight:700;margin-left:8px;vertical-align:middle;">DEAD LINK</span></span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Applications open November 1, 2026. Deadline: January 1, 2027. Winners announced in February/March.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free to apply.</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://science.osti.gov/wdts/nsb" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">National Science Bowl (NSB)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>2027 National Finals: typically late April/early May 2027. Regional competitions run January-March 2027. Registration opens fall 2026.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free to participate. Regional events may have modest fees. Travel to nationals is DOE-sponsored for winning teams.</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.soinc.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Science Olympiad (Division C)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>2027 National Tournament: The Ohio State University, May 2027. Local/state tournaments run Sept 2026 - April 2027. Team registration typically opens September 2026.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">State registration fees vary (typically $100-$300 per team). National membership: included with state registration. Invitationals may charge separate fees.</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://usabo-trc.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">USA Biology Olympiad (USABO)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>School registration: November 8, 2026. Student registration: January 2027. 2027 USABO opens August 1, 2026.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free for students. School registration fee: $125 (due October 30, 2026).</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://usaco.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">USA Computing Olympiad (USACO)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Rolling registration (create account any time). 2026-2027 season contests: December 2026, January 2027, February 2027, US Open March/April 2027.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free.</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-scholarships" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Scholarships</h2>
+    <span style="color:#4a5260;font-size:13px;">1 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><span style="color:#9aa0a6;font-weight:500;font-size:14px;">National Merit College-Sponsored Scholarships<span style="background:#e74c3c;color:#fff;padding:1px 8px;border-radius:12px;font-size:10px;font-weight:700;margin-left:8px;vertical-align:middle;">LOW</span> <span style="background:#e74c3c;color:#fff;padding:1px 8px;border-radius:12px;font-size:10px;font-weight:700;margin-left:8px;vertical-align:middle;">DEAD LINK</span></span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Varies by college. National Merit Finalist status required. Typically finalist notification February 2028.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-law_civics" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Law & Civics</h2>
+    <span style="color:#4a5260;font-size:13px;">7 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.ctbar.org/members/volunteer-today/civics-education/mock-trial-competitions" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Connecticut Bar Association High School Mock Trial Competition</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>School registration typically opens in fall for spring competition; 2026-2027 season TBD<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (school-based; minimal materials fees may apply)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://hsmca.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">High School Moot Court Association (HSMCA)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>2026-2027 season info TBD. Online moot court camp July 8-10 or August 13-15, 2026.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Competition fees (~$100); Moot Court camp ~$200-300</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">heritage</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.nslcleaders.org/youth-leadership-programs/law-advocacy/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">NSLC Law &amp; Advocacy Program (at Yale)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Rolling admissions; programs fill on a first-come, first-served basis<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Approximately $3,195-$6,100 depending on location and duration (9-day to 18-day options)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">heritage</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.scsjip.org/highschooldivision" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Sonia &amp; Celina Sotomayor Judicial Internship Program - High School Division</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Summer 2026 deadline was January 2026. Apply late 2026 for summer 2027.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free - PAID internship (stipend provided)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">heritage</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://ctdemocracycenter.org/our-programs/we-the-people/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">We the People: The Citizen and the Constitution - Connecticut Competition</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>2026-2027 season registration typically opens fall 2026<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (school-based curriculum and competition)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">heritage</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://ymun.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Yale Model United Nations (YMUN 53)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration typically opens fall 2026 for January 2027 conference<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Registration fees vary (typically $50-100 per delegate)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">heritage</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://globalscholars.yale.edu/politics-law-economics" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Yale Young Global Scholars (YYGS) - Politics, Law &amp; Economics</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Regular Decision: January 7, 2026; Early Action: November 2025 (past for 2026 cycle; check late 2026 for 2027)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$7,000 residential tuition + $95 application fee ($80 EA)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">heritage</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-exams" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Exams</h2>
+    <span style="color:#4a5260;font-size:13px;">5 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.act.org/content/act/en/products-and-services/the-act/registration/test-dates.html" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">ACT - September 19, 2026</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>August 14, 2026 (registration). Late registration: September 1, 2026.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$68 (without writing); $93 (with optional writing section)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">AP Exams - May 2027</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Fall 2026 (school registration). Late orders until March 2027 incur $40/exam late fee.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$99 per exam (~$139 with late order fee)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.cltexam.com/tests/clt/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">CLT (Classic Learning Test) - Multiple Dates</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Varies by test date. Next: July 16, 2026 (reg closes Jul 9). Aug 22, Oct 8, Nov 5, Dec 2026, Feb 3, 2027.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$112 (remotely proctored)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://satsuite.collegeboard.org/psat-nmsqt/test-dates" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">PSAT/NMSQT 2026</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>August 24, 2026 (school registration). Saturday test: October 17, 2026. School-day testing: Oct 1-30, 2026.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$18 (schools may add administrative fee)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://satsuite.collegeboard.org/sat/dates-deadlines" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">SAT - August 22, 2026</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>August 7, 2026 (registration). Late registration: +$38<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$68 (US); Late registration: +$38</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Test Score</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-writing_humanities" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Writing & Humanities</h2>
+    <span style="color:#4a5260;font-size:13px;">11 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><span style="color:#9aa0a6;font-weight:500;font-size:14px;">Bennington College Young Writers Awards<span style="background:#e74c3c;color:#fff;padding:1px 8px;border-radius:12px;font-size:10px;font-weight:700;margin-left:8px;vertical-align:middle;">LOW</span> <span style="background:#e74c3c;color:#fff;padding:1px 8px;border-radius:12px;font-size:10px;font-weight:700;margin-left:8px;vertical-align:middle;">DEAD LINK</span></span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Typically November 1 annually (likely Nov 1, 2026)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://poetrysociety.org.uk/competitions/foyle-young-poets-of-the-year-award/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Foyle Young Poets of the Year Award</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>July 31, 2026 (midnight BST)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">heritage</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.jfklibrary.org/learn/education/profile-in-courage-essay-contest" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">John F. Kennedy Profile in Courage Essay Contest</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Early January 2027 (2027 deadline TBD, likely Jan 2027)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">heritage</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.johnlockeinstitute.com/essay-competition" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">John Locke Institute Global Essay Prize</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>2027 cycle typically opens February 2027, registration May, submission June<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">heritage</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://arts.princeton.edu/about/opportunities/high-school-contests/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Leonard L. Milberg &#39;53 High School Poetry Prize (Princeton)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Typically October-November annually (likely Nov 2026)<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://nhd.org/en/contest/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">National History Day (NHD)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>School/regional contests fall 2026-spring 2027; CT state contest typically March 2027; National contest June 2027<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.artandwriting.org/programs/national-student-poets-program/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">National Student Poets Program (NSPP)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Through Scholastic Awards process (Gold Key winners invited to apply)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">heritage</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.nytimes.com/spotlight/learning-contests" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">New York Times Student Writing Contests</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Multiple deadlines throughout the year. Summer Reading: June 5 - Aug 14, 2026.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://arts.princeton.edu/about/opportunities/high-school-contests/ten-minute-play-contest/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Princeton University Ten-Minute Play Contest</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Typically March-April 2027<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.artandwriting.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Scholastic Art &amp; Writing Awards</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Opens October 2026 for 2027 awards; regional deadlines vary Dec-Jan 2027<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free ($10 entry fee per individual entry for non-early)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://youngarts.org/discipline/writing/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">YoungArts National Arts Competition (Writing)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>2027 competition opens July 21, 2026; closes October 6, 2026 at 8 PM ET<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-summer_programs" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Summer Programs</h2>
+    <span style="color:#4a5260;font-size:13px;">10 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.broadinstitute.org/partnerships/education/k-12-outreach/broad-summer-scholars-program" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Broad Summer Scholars Program (BSSP)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>~January 2027 (typically mid-January)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free ($3,600 stipend plus partial transportation reimbursement)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.jax.org/education-and-learning/high-school-students-and-undergraduates/learn-earn-and-explore" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Jackson Laboratory Summer Student Program (Farmington, CT)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>~January 26, 2027<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (all expenses covered; $7,000 stipend plus room/board/travel)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.training.nih.gov/research-training/pb/sip/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">NIH High School Scientific Training and Enrichment Program (HiSTEP)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>~February 2027 (opens mid-November 2026)<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (paid internship)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.cee.org/programs/research-science-institute" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Research Science Institute (RSI)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>January 15, 2027 (applications open ~November 2026)<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (all costs covered including room, board, tuition, supplies)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.stonybrook.edu/simons/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Simons Summer Research Program</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>~February 8, 2027 (school nomination deadline ~late January)<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (participants receive a stipend of $750)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://simr.stanford.edu/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Stanford Institutes of Medicine Summer Research Program (SIMR)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>~February 22, 2027<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (tuition-free research internship)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://ssp.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Summer Science Program (SSP)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>~February 20, 2027 (applications open December 2026)<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$9,800-$11,800 (maximum fee; sliding scale financial aid covering up to 100% of need)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://tellurideassociation.org/our-programs/high-school-students/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Telluride Association Summer Seminar (TASS)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>~January 2027 (applications open ~November 2026)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (all expenses covered including tuition, room, board, books, and travel)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.law.upenn.edu/academics/legaleducationprograms/pre-college-summer.php" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">University of Pennsylvania Carey Law School Pre-College Academy</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Rolling admissions (typically opens ~December 2026; fills quickly)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$9,899 (residential) / $6,299 (commuter)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://globalscholars.yale.edu/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Yale Young Global Scholars (YYGS)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Early Action: ~October 15, 2026; Regular Decision: ~January 15, 2027<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$6,500 (all-inclusive: tuition, room, board, activities)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-general_competitions" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">General</h2>
+    <span style="color:#4a5260;font-size:13px;">3 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><span style="color:#9aa0a6;font-weight:500;font-size:14px;">National Merit $2,500 Scholarship<span style="background:#e74c3c;color:#fff;padding:1px 8px;border-radius:12px;font-size:10px;font-weight:700;margin-left:8px;vertical-align:middle;">LOW</span> <span style="background:#e74c3c;color:#fff;padding:1px 8px;border-radius:12px;font-size:10px;font-weight:700;margin-left:8px;vertical-align:middle;">DEAD LINK</span></span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>PSAT/NMSQT: October 17, 2026. Semifinalist: September 2027. Finalist: February 2028.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (PSAT/NMSQT ~$18)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.societyforscience.org/isef/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Regeneron International Science and Engineering Fair (ISEF)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>2027 ISEF: May 8-14, 2027, Los Angeles. Qualify through CSEF in CT (March 2027).<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Affiliated fair fee ~$25-50. ISEF free for qualifiers.</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.societyforscience.org/regeneron-sts/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Regeneron Science Talent Search (STS)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>November 2027 (for Class of 2028 seniors). Apply fall of senior year.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free to apply</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-fencing" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Fencing</h2>
+    <span style="color:#4a5260;font-size:13px;">7 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.askfred.net/tournaments/0f58644c-39ad-42be-9ed4-03e8b82bc6de" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">CT Division Junior Olympic Qualifiers</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>September 2, 2026 (registration closes)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$40-60 estimated registration fee</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.askfred.net/tournaments/a016bc85-1772-4682-bfaa-b3734afc6351" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">CT Division Summer Nationals Qualifier</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Typically March/April annually. 2027 date TBD.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$40-60 estimated registration fee</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.askfred.net/tournaments/28c66a63-79f3-465f-a3d9-db89181ad410" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Neil Lazar Div1/Div2/Veteran ROC</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Typically August. 2026 date TBD.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$50-80 estimated registration fee</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.askfred.net/tournaments/ca083e89-10da-432c-81ab-3827446b2c8b" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Neil Lazar RYC/RJCC (New Haven)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Typically March (2026 was Mar 11). 2027 dates TBD, expected similar spring.<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$60-90 estimated registration fee</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.usafencing.org/events-national" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">October 2026 North American Cup (NAC)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>September 9, 2026 (registration)<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$100-200 estimated registration + travel to Orlando</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.rocklandfencersclub.com/summer-camp" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Rockland Fencers Club Sleepaway Camp at Avon Old Farms</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Likely July 2026 (check website for registration)<span style="background:#1a2e00;color:#a3e635;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🔄 Updated</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$1,200-1,800 estimated (sleepaway camp including room/board/coaching)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.timmorehousefencing.com/nyc-summer-fencing-camps" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Tim Morehouse Fencing Club Summer Camps (CT)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Rolling registration (typically fills early)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$650 introductory week; multi-week discounts available</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">asian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">south_asian</span> </td>
+</tr></tbody>
+    </table>
+  </div>
+</div>
+
+  <div class="tab-panel" id="tab-gone" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-family:'DM Serif Display',serif;font-size:22px;font-weight:400;color:#8a9099;">💀 No Longer Found</h2>
+    <span style="color:#4a5260;font-size:13px;">97 programs</span>
+  </div>
+  <p style="color:#4a5260;font-size:12px;margin-bottom:16px;">These opportunities appeared in previous runs but were not found in this week's search. May be seasonal, expired, or renamed.</p>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Name</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Category</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Status</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Connecticut High School Fencing Association (CHSFA) State Championships</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Ct Local</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Connecticut History Day</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Ct Local</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">UConn Pre-College Summer (PCS)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Ct Local</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">UConn Summer LEAD Program</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Ct Local</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">YCAS Young Scholars Summer Program in Biostatistics and Clinical Research</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Ct Local</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Yale Summer Session Pre-College Program</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Ct Local</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">PSAT 10 2027</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Exams</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">2026 USA Fencing Summer Nationals &amp; July Challenge</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Apogee Fencing at Cheshire Academy</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Boston Fencing Club Summer Camps 2026</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">CT Division Great Pumpkin Tournament</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Candlewood Fencing Center - Year-Round Training</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Enfield Fencing Club - Year-Round Training</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencers School of Connecticut - Year-Round Training</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Marx Fencing Academy Summer Clinics &amp; Sleepaway Camp</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Morris Cup RYC/RJCC</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">NEUSFA Pomme De Terre</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">NEUSFA Regional Qualifier Events (Beanpot Open, Turkey Open, Hangover Open)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Nutmeg State Games Fencing Tournament</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Premier Challenge ROC/RJCC/RYC</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Tim Morehouse Fencing Club Sleepaway Camp at St. Mark's School</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Trick or Retreat ROC/RJCC/RYC</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Fencing</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Davidson Fellows Scholarship</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">General</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Scholastic Art &amp; Writing Awards</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">General</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">U.S. Presidential Scholars Program</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">General</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">USA Biology Olympiad (USABO)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">General</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">CBA Law Camp (Connecticut Bar Association)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Columbia University Pre-College: Constitutional Law</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Connecticut Debate Association (CDA)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Georgetown University Law Academy (Summer Pre-College)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Harvard Pre-College Program (Law-Related Courses)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Model Congress / Model UN (School-Based)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">National Association of Moot Court (NAM) - High School Circuit</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">National High School Mock Trial Championship (NHSMTC)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Oxford Royale Academy Summer Programme at Yale</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Sonia &amp; Celina Sotomayor Judicial Internship Program (High School Division)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Summer Springboard: Trial Law at Yale</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Supreme Court Summer Institute (for Teachers - Note for Future Interest)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">US District Court of Connecticut - Mock Trial &amp; Court Programs</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">YMCA Youth and Government Connecticut</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">iLead Law &amp; Leadership Conference (Just The Beginning)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Law & Civics</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Ayn Rand Essay Contests (Fountainhead / Anthem / Atlas Shrugged)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Scholarships</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Carson Scholars Fund</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Scholarships</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Doodle for Google Scholarship</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Scholarships</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Foundation 649 Scholarship</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Scholarships</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">GE-Reagan Foundation Scholarship</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Scholarships</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Horatio Alger National Scholarship</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Scholarships</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Jack Kent Cooke College Scholarship Program</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Scholarships</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">National Security Language Initiative for Youth (NSLI-Y)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Scholarships</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Princeton Prize in Race Relations</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Scholarships</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Sallie Mae No Essay Scholarship</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Scholarships</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">BioGENEius Challenge 2027</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Science & Math</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Brain Bee (International Brain Bee) 2027</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Science & Math</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">COSMOS (California State Summer School for Mathematics and Science) 2027</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Science & Math</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Conrad Challenge 2026-2027</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Science & Math</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Genes in Space Competition 2027</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Science & Math</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">International Biology Olympiad (IBO) 2027</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Science & Math</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">International Youth Math Challenge (IYMC) 2026-2027</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Science & Math</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Pioneer Academics Research Program</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Science & Math</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">U.S. National Chemistry Olympiad (USNCO) 2027</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Science & Math</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">UC Davis Young Scholars Program (YSP) 2027</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Science & Math</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">USA Mathematical Talent Search (USAMTS)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Science & Math</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">iGEM (International Genetically Engineered Machine) Competition 2027</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Science & Math</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Boston University Research in Science &amp; Engineering (RISE) Program</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Summer Programs</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Brown University Pre-College (Summer@Brown)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Summer Programs</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Garcia Summer Scholars Program</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Summer Programs</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Harvard Secondary School Program (SSP)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Summer Programs</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Lumiere Research Scholar Program</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Summer Programs</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">MITES Summer (MIT Introduction to Technology, Engineering, and Science)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Summer Programs</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Notre Dame Leadership Seminars</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Summer Programs</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Rockefeller University Summer Science Research Program (SSRP)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Summer Programs</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Secondary Student Training Program (SSTP) — University of Iowa</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Summer Programs</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Stanford Pre-Collegiate Summer Institutes — Legal Studies</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Summer Programs</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">UCLA Mock Trial Summer Institute</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Summer Programs</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">AFSA National High School Essay Contest (American Foreign Service Association)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Bennington College Young Writers Awards</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Bow Seat Ocean Awareness Contest</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Columbia Political Review High School Essay Contest</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Columbia Undergraduate Law Review High School Essay Contest</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Gerald R. Ford Student Writing Challenge</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Harvard Crimson Global Essay Competition</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">JEA National Student Media Contests (Journalism)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Kenyon Review Young Writers Contest</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">National High School Poetry Contest (Just Poetry)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">National History Bee &amp; Bowl (US / International)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">National Youth Poet Laureate Program</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Optimist International Essay Contest</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">River of Words Poetry and Art Contest</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">SPJ/JEA High School Essay Contest</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">The Adroit Prizes for Poetry &amp; Prose</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">The Concord Review (TCR) - History Essay Publication</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">The Emerson Prize (The Concord Review)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">The Politic High School Investigative Journalism Competition</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">VFW Voice of Democracy Audio Essay Competition</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Write the World Monthly Writing Competitions</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">YoungArts National Arts Competition (Writing)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Youth Journalism International Contest</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Writing & Humanities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Last seen 2026-06-29</td>
+</tr></tbody>
+    </table>
+  </div>
+</div>
+
+  <footer>
+    <p>Ivy 2028 Weekly Researcher — Generated 2026-07-06</p>
+    <p style="margin-top:4px;">Many programs show prior-year dates. Official 2026-2027 deadlines are published as sites update. Verify on official sites before acting.</p>
+  </footer>
+</div>
+
+<script>
+(function() {
+  var tabs = document.querySelectorAll('.tab');
+  var panels = document.querySelectorAll('.tab-panel');
+  tabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      tabs.forEach(function(t) { t.style.background='#15171a'; t.style.color='#64748b'; t.style.borderColor='#2a2d33'; });
+      this.style.background='#1c1f23'; this.style.color='#e8eaed'; this.style.borderColor='#353940';
+      panels.forEach(function(p) { p.style.display='none'; });
+      var target = document.getElementById('tab-' + this.getAttribute('data-tab'));
+      if (target) target.style.display='block';
+    });
+  });
+})();
+</script>
+</body>
+</html>

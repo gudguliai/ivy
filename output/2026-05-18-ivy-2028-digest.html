@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Ivy-2028 Digest — 2026-05-18</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap');
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#0e0f11; color:#e8eaed; font-family:'DM Sans',sans-serif; font-size:14px; line-height:1.6; min-height:100vh; }
+body::before { content:''; position:fixed; inset:0; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E"); pointer-events:none; z-index:100; opacity:0.4; }
+.page { max-width:1100px; margin:0 auto; padding:40px 32px 80px; position:relative; z-index:1; }
+.header { border-bottom:1px solid #2a2d33; padding-bottom:32px; margin-bottom:40px; }
+.header-label { font-size:11px; color:#f0a500; letter-spacing:0.15em; text-transform:uppercase; margin-bottom:12px; font-weight:500; }
+h1 { font-family:'DM Serif Display',serif; font-size:38px; font-weight:400; line-height:1.15; color:#e8eaed; margin-bottom:8px; }
+h1 em { color:#f0a500; font-style:italic; }
+.header-sub { color:#8a9099; font-size:13px; max-width:560px; }
+.notice { background:#1a1700; border:1px solid #f0a500; border-radius:6px; padding:12px 16px; margin-top:16px; font-size:12px; color:#f0c040; line-height:1.5; }
+.notice strong { color:#f0a500; }
+.stats-row { display:flex; gap:10px; margin-top:20px; flex-wrap:wrap; }
+.tab-bar { display:flex; gap:4px; margin-bottom:24px; flex-wrap:wrap; }
+.tab { padding:8px 16px; font-size:12px; font-weight:500; border:1px solid #2a2d33; background:#15171a; cursor:pointer; color:#64748b; border-radius:6px; white-space:nowrap; }
+.tab:hover { background:#1c1f23; color:#e8eaed; }
+.tab-panel { }
+.attention-grid { display:grid; gap:12px; }
+footer { text-align:center; padding:24px; color:#4a5260; font-size:11px; border-top:1px solid #2a2d33; margin-top:40px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <div class="header-label">Weekly Digest</div>
+    <h1>Ivy-<em>2028</em></h1>
+    <div class="header-sub">2026-05-18 — Grade 10 &rarr; 11 (Class of 2028) — CT + National</div>
+    <div class="stats-row">
+      <div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;">
+        <span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">117</span>
+        <span style="font-size:11px;color:#4a5260;">Total</span>
+      </div>
+      <div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;">
+        <span style="display:block;font-size:18px;font-weight:600;color:#ff5c5c;">3</span>
+        <span style="font-size:11px;color:#4a5260;">Urgent</span>
+      </div>
+      <div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;">
+        <span style="display:block;font-size:18px;font-weight:600;color:#f0c040;">9</span>
+        <span style="font-size:11px;color:#4a5260;">Prep Needed</span>
+      </div>
+      <div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">14</span><span style="font-size:11px;color:#4a5260;">Science & Math</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">8</span><span style="font-size:11px;color:#4a5260;">Scholarships</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">19</span><span style="font-size:11px;color:#4a5260;">Law & Civics</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">11</span><span style="font-size:11px;color:#4a5260;">Exams</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">19</span><span style="font-size:11px;color:#4a5260;">Writing & Humanities</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">25</span><span style="font-size:11px;color:#4a5260;">Summer Programs</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">9</span><span style="font-size:11px;color:#4a5260;">General</span></div><div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;"><span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">12</span><span style="font-size:11px;color:#4a5260;">Fencing</span></div>
+    </div>
+  </div>
+
+  <div class="tab-bar">
+    <button class="tab active" data-tab="attention" style="color:#f0a500;border-color:#f0a500;background:#1a1700;">⚠️ Attention (3)</button>
+    <button class="tab" data-tab="science_math" style="color:#64748b; background:#1c1f23;color:#e8eaed;">Science & Math (14)</button>
+<button class="tab" data-tab="scholarships" style="color:#64748b;">Scholarships (8)</button>
+<button class="tab" data-tab="law_civics" style="color:#64748b;">Law & Civics (19)</button>
+<button class="tab" data-tab="exams" style="color:#64748b;">Exams (11)</button>
+<button class="tab" data-tab="writing_humanities" style="color:#64748b;">Writing & Humanities (19)</button>
+<button class="tab" data-tab="summer_programs" style="color:#64748b;">Summer Programs (25)</button>
+<button class="tab" data-tab="general_competitions" style="color:#64748b;">General (9)</button>
+<button class="tab" data-tab="fencing" style="color:#64748b;">Fencing (12)</button>
+
+    
+  </div>
+
+  <div class="tab-panel" id="tab-attention" style="display:block;">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+      <h2 style="font-family:'DM Serif Display',serif;font-size:22px;font-weight:400;color:#e8eaed;">⚠️ Attention</h2>
+      <span style="color:#4a5260;font-size:13px;">3 urgent items</span>
+    </div>
+    <div class="attention-grid"><div style="background:#1c1f23;border:1px solid #2a2d33;border-left:3px solid #f0a500;border-radius:8px;padding:16px 20px;">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:8px;">
+    <a href="https://www.usafencing.org/national-championships" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">2026 USA Fencing Summer National Championships</a>
+    <span style="background:#f0a500;color:#fff;padding:2px 10px;border-radius:20px;font-size:11px;font-weight:600;white-space:nowrap;">2026-06-01 (14d)</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span>
+  </div>
+  <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px;">
+    <span style="background:#1e3a5f;color:#6b9fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500;">Fencing</span>
+    
+    <span style="background:#1a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;">Aid Available</span>
+  </div>
+  <p style="color:#8a9099;font-size:12px;line-height:1.5;margin:0;">The premier national championship event for all age divisions including Y10, Y12, Y14, Cadet, Junior, Division I, II, III, and High School. Takes place in Phoenix, AZ at the Phoenix Convention Center.</p>
+</div>
+<div style="background:#1c1f23;border:1px solid #2a2d33;border-left:3px solid #f0a500;border-radius:8px;padding:16px 20px;">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:8px;">
+    <a href="https://www.nationalfencingalliance.com/summer-camp-2026" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">National Fencing Alliance Elite Summer Camp 2026</a>
+    <span style="background:#f0a500;color:#fff;padding:2px 10px;border-radius:20px;font-size:11px;font-weight:600;white-space:nowrap;">2026-06-01 (14d)</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span>
+  </div>
+  <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px;">
+    <span style="background:#1e3a5f;color:#6b9fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500;">Fencing</span>
+    
+    <span style="background:#1a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;">Aid Available</span>
+  </div>
+  <p style="color:#8a9099;font-size:12px;line-height:1.5;margin:0;">Elite two-week summer training camp for national and international level fencers. Held at The Ohio State University. Features high-level tactical training, video analysis, and concludes with NFA Natio</p>
+</div>
+<div style="background:#1c1f23;border:1px solid #2a2d33;border-left:3px solid #f0a500;border-radius:8px;padding:16px 20px;">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:8px;">
+    <a href="https://breakthroughjuniorchallenge.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:14px;">Breakthrough Junior Challenge</a>
+    <span style="background:#f0a500;color:#fff;padding:2px 10px;border-radius:20px;font-size:11px;font-weight:600;white-space:nowrap;">2026-06-01 (14d)</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span>
+  </div>
+  <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px;">
+    <span style="background:#1e3a5f;color:#6b9fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500;">Science & Math</span>
+    
+    
+  </div>
+  <p style="color:#8a9099;font-size:12px;line-height:1.5;margin:0;">A global science video competition where students ages 13-18 create a short (under 3 minutes) video explaining a big idea in physics, life sciences, or mathematics. Winner receives $250,000 scholarshi</p>
+</div></div>
+  </div>
+
+  <div class="tab-panel" id="tab-science_math" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Science & Math</h2>
+    <span style="color:#4a5260;font-size:13px;">14 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://breakthroughjuniorchallenge.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Breakthrough Junior Challenge</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f0a500;margin-right:6px;"></span>2026-06-01 (14d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.maa.org/math-competitions/amc-1012" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">AMC 10/12 (American Mathematics Competitions)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$10.50-$12.00 per student (early bird vs regular)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://bicbioinformatics.org/bibc/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Bioinformatics Competition (BiBC) - 6th Edition</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="http://ctyalebrainbee.com/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Connecticut Brain Bee</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (capped at ~60 registrants)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://ctsciencefair.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Connecticut Science &amp; Engineering Fair (CSEF) - ISEF Affiliated</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free for students ($125 school registration fee covers entire school)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.exploravision.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">ExploraVision</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Portfolio</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.genesinspace.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Genes in Space Competition</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://igem.org/competition/high-school" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">iGEM High School Competition</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$4,500/team registration + Jamboree fees ~$300-600/person + lab materials ($5,000-20,000+)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.ibo-info.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">International Biology Olympiad (IBO) 2026</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">All expenses covered for U.S. team members</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://iysf.world" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">International Youth Science Fair (IYSF) 2026</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (online event)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Research Abstract</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://math.mit.edu/research/highschool/primes/usa.html" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">MIT PRIMES - Biology Research Program</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://science.osti.gov/wdts/nsb" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">National Science Bowl (NSB) - Connecticut Regional</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (DOE-funded; some regions may charge $50-100 administrative fee)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.usabo-tr.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">USA Biology Olympiad (USABO) - Open Exam</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">School registration $95 + $30/student for Open Exam</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.usabo-tr.org/semifinal-exam" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">USA Biology Olympiad (USABO) - Semifinal Exam</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Invitation-only (included in registration for those who qualify from Open Exam)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-scholarships" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Scholarships</h2>
+    <span style="color:#4a5260;font-size:13px;">8 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://youngarts.org/apply/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">National YoungArts Foundation Competition</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2026-10-15 (150d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://spirit.prudential.com/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Prudential Spirit of Community Awards</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2026-11-05 (171d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Nomination</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.jackierobinson.org/apply/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Jackie Robinson Foundation Scholarship</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2026-11-15 (181d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_american</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://about.bankofamerica.com/en/making-an-impact/student-leaders" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Bank of America Student Leaders Program</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2026-11-30 (196d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.reaganfoundation.org/education/scholarships/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">GE-Reagan Foundation Scholarship Program</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2027-01-15 (242d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.equitable.com/scholarships" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Equitable Excellence Scholarship</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2027-02-03 (261d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.tacobellfoundation.org/live-mas-scholarship/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Taco Bell Foundation Live Mas Scholarship</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2027-02-28 (286d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay, Test Score</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.hoby.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Hugh O'Brian Youth Leadership (HOBY)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (sponsored by local organizations and volunteers)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Nomination</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-law_civics" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Law & Civics</h2>
+    <span style="color:#4a5260;font-size:13px;">19 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.legion.org/oratorical" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">American Legion High School Oratorical Contest</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Local contests Nov-Jan; State Feb-Mar; National April 2026<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free to enter</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://precollege.brown.edu" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Brown University Pre-College Law Courses</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Rolling admissions; early application by Feb/Mar 2026 recommended<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$5,209-$5,355 residential; ~$3,257-$3,355 commuter</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.closeup.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Close Up Foundation - Advanced Law &amp; Justice Program</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Rolling; programs run throughout academic year and summer<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$3,200-$3,800 per student (includes hotel, meals, DC transport)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.ctbar.org/for-the-public/law-related-education/mock-trial-program" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Connecticut Bar Association Mock Trial Program</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration opens fall 2025; competitions Jan-Mar 2026<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Minimal team registration fee (typically under $200/team)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.empiremocktrial.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Empire Mock Trial (National Invitational)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Typically late fall 2025 for 2026 season<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Varies by registration tier (est. $300-$800 per team)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://scs.georgetown.edu/academic-programs/412815/high-school-supreme-court-summer-academy/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Georgetown Supreme Court Summer Academy</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Applications typically open Dec-Feb for summer sessions<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$4,000-$5,000 residential (including tuition, room, meals)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://summer.georgetown.edu/high-school" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Georgetown University Summer High School (Law Courses)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Applications typically open Dec/Jan for summer sessions<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$5,195 residential per session; ~$2,895 commuter</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.harvardmodelcongress.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Harvard Model Congress (HMC)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration opens fall 2025; conference Feb 20-23, 2026<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$325-$500 per delegate (conference fee); total ~$800-$1,200 with travel/hotel</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://jsa.org/summer-school" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">JSA Summer School (Yale &amp; Princeton)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Applications open Oct 2025; close Mar 2026<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$3,000-$3,500 residential</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.wcl.american.edu/impact/initiatives-programs/marshallbrennan/national-moot-court-competition/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Marshall-Brennan National Moot Court Competition</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Typically spring 2026 (March-April); check for chapter availability<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free to participating chapters</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://nationalmocktrial.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">National High School Mock Trial Championship (NHSMTC)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Varies by state (typically fall 2025 for 2026 season)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Varies by state/team (est. $500-$2,000 per student for travel, materials, registration)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.speechanddebate.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">NSDA National Tournament (Congressional Debate)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration opens Jan 15; Early ends Mar 1; Regular ends Apr 26, 2026<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$395-$455 per student depending on registration period; school reg $25</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://nslcleaders.org/programs/law-advocacy/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">NSLC Law &amp; Advocacy (Georgetown &amp; Michigan)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Rolling admissions; typically opens fall 2025<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$4,395 (Georgetown); $4,195 (Michigan) - includes housing, meals, activities</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.tfas.org/high-school-programs/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">TFAS Law &amp; Government Program (DC or London)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Rolling admissions; opens Nov/Dec 2025<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$4,895 (DC); ~$6,995 (London) - includes tuition, housing, meals</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://precollege-summer.uconn.edu/programs/law-society/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">UConn Pre-College Summer: Law &amp; Society</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Applications typically open Jan/Feb 2026<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$5,000-$6,000 residential (includes tuition, room, board)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.civiced.org/we-the-people" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">We the People: The Citizen and the Constitution</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>State competitions typically Jan-Mar 2026; National Finals April 2026<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$150-$200 per student registration; total trip ~$1,500-$1,800 with travel/hotel</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.crf-usa.org/we-the-students" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">We the Students Scholarship (Constitutional Rights Foundation)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Typically spring 2026 (exact date TBD)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free to enter</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.yalemodelcongress.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Yale Model Congress (YMC)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration typically opens fall 2025; conference Jan/Feb 2026<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$300-$500 per delegate (conference fee); travel/hotel extra</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.ymcact.org/youth-government" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">YMCA Youth &amp; Government (Connecticut)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration typically fall 2025<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$200-$400 per student (varies by YMCA branch)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-exams" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Exams</h2>
+    <span style="color:#4a5260;font-size:13px;">11 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.act.org/content/act/en/products-and-services/the-act/registration/test-dates.html" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">ACT</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Regular ~1 month before; late ~2 weeks before test date<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$68 (no writing); $93 (with Writing). Add $38 late fee.</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://apstudents.collegeboard.org/exam-dates" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">AP Exams (May 2026)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>School-dependent; typically November 2025 (fall registration) to avoid late fees. Late deadline through early March 2026 with additional fee.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$98–$102 per exam; ~$40 late fee; ~$53 reduced fee for eligible students</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://apcentral.collegeboard.org/exam-administration-ordering-scheduling/exam-dates" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">AP Exams (May 2027)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration opens August–October 2026. Regular deadline October–November 2026 (school-dependent). Late deadline February–March 2027.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$100–$105 per exam (estimated; 2027 fee not yet set)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.cltexam.com" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">CLT</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Early May 2026 (estimated); Late deadline ~2 weeks later<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$50 (online)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.cltexam.com/clt10/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">CLT10</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>~3–4 weeks before test date<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$50 (online)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://portal.ct.gov/SDE" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Connecticut NGSS Science Assessment (10th Grade)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>School-determined (spring 2026)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (state-mandated)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Test Score</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.nationalmerit.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">National Merit Scholarship Program (PSAT/NMSQT)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>October 2026 test; school-scheduled<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Included in PSAT/NMSQT fee</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://satsuite.collegeboard.org/psat-10" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">PSAT 10</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>School-dependent; typically late February/early March 2026<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$18 (often covered by school)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://satsuite.collegeboard.org/psat-nmsqt" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">PSAT/NMSQT</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>School-dependent; typically early September 2026<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$18–$25 (often covered by school)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://satsuite.collegeboard.org/sat/dates-deadlines" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">SAT</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration ~1 month before test date; late registration ~10 days later<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$60–$68 (exact fee not listed on page; check College Board site)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://collegeboard.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">SAT Subject Tests</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>N/A — discontinued<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">N/A</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-writing_humanities" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Writing & Humanities</h2>
+    <span style="color:#4a5260;font-size:13px;">19 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://poetrysociety.org.uk/competitions/foyle-young-poets-of-the-year-award/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Foyle Young Poets of the Year Award</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2026-07-31 (74d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.ctyouthpoetlaureate.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Connecticut Youth Poet Laureate Program</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2026-09-01 (106d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://youngarts.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">YoungArts Competition (Writing)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2026-10-17 (152d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.bennington.edu/young-writers-awards" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Bennington College Young Writers Awards</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2026-11-01 (167d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://admission.princeton.edu/costs-aid/tenacity-scholarship" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Princeton University Tenacity Essay Contest</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2026-11-01 (167d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay, Rec Letter</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://tcr.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Concord Review Submissions (History Research)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2026-12-01 (197d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$50 submission fee</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.youthpoetlaureate.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">National Youth Poet Laureate Program</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;margin-right:6px;"></span>2026-12-01 (197d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://theadroitjournal.org/prize" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Adroit Journal Prize for Poetry &amp; Prose</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$10 entry fee</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.aynrand.org/contests/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Ayn Rand Institute Anthem Essay Contest</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://grubstreet.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">GrubStreet Teen Writing Fellowship</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://iowayoungwritersstudio.submittable.com/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Iowa Young Writers Studio</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$2,300 (residential tuition + room/board)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.jfklibrary.org/learn/education/profile-in-courage-essay-contest" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">John F. Kennedy Profile in Courage Essay Contest</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://kenyonreview.org/young-writers" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Kenyon Review Young Writers Awards</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$20 per entry</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://nhd.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">National History Day</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Varies by affiliate (typically $10-30)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.nationalww2museum.org/students-teachers/student-programs/high-school-essay-contest" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">National WWII Museum High School Essay Contest</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://ncte.org/awards/achievement-awards-in-writing/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">NCTE Achievement Awards in Writing</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Portfolio, Nomination</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.nytimes.com/spotlight/learning-contests" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">New York Times Student Editorial Contest</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://summerhumanitiesinstitute.stanford.edu" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Stanford Summer Humanities Institute</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$8,000 (tuition + room/board)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.tellurideassociation.org/our-programs/high-school-programs/tass/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Telluride Association Summer Seminar (TASS)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (tuition, room, and board fully covered)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Essay</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-summer_programs" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Summer Programs</h2>
+    <span style="color:#4a5260;font-size:13px;">25 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.bu.edu/summer/high-school-programs/rise/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Boston University RISE Internship/Practicum</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Mid-February<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$6,000-$7,000 (tuition + room/board)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.depts.ttu.edu/honors/academicsandenrichment/affiliatedandhighschool/clarkscholars/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Clark Scholars Program at Texas Tech</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Early February<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (fully funded; $750 stipend provided)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.dnalc.org/summer" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Cold Spring Harbor DNA Learning Center — Summer DNA Science</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Rolling (opens January; early bird by March 15)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$1,975 (1-week session); early bird discount -$200</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://education.uconn.edu/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Edward Zelinsky Youth and Law Forum (formerly CT Youth and Law Forum)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Applications typically open in February for summer session (late June/early July). 2026 dates TBD.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">FREE (tuition-free program)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.law.georgetown.edu/high-school-programs/summer-high-school-pre-law-program/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Georgetown Law — Summer High School Pre-Law Program</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Rolling (typically opens January)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$3,500-$4,500 (residential); ~$2,000-$2,500 (online)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.summer.harvard.edu/high-school-programs/pre-college-program" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Harvard Pre-College Program — Law &amp; Legal Studies</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Early February (priority); rolling thereafter<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$5,550 (all-inclusive: tuition, room, board, activities)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.jax.org/education/summer-student-programs/high-school-summer-student-program" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Jackson Laboratory Summer Student Program</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>February 1<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (tuition-free; paid stipend; housing $1,200 optional)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.nslcleaders.org/youth-programs/law-advocacy/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">National Student Leadership Conference (NSLC) — Law &amp; Advocacy</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Rolling (applications typically open November)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$3,495-$4,195 (all-inclusive: tuition, room, board)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.training.nih.gov/programs/hs-sip" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">NIH High School Summer Internship Program (HS-SIP)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>February<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (paid internship — stipend provided)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://pioneeracademics.com/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Pioneer Academics Research Program — Biology</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>April (rolling with early deadlines)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$6,950 (full program)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.qu.edu/admissions/pre-college-programs/summer-institute-for-high-school-students/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Quinnipiac University Pre-College Law Institute</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Likely opens spring 2026. 2025 program ran July 13-25; expect similar 2026 timeline.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$3,100 for 2-week residential program (includes tuition, room, board, materials)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.cee.org/research-science-institute" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Research Science Institute (RSI) at MIT</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Early December (prior year)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (all costs covered)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.rockefeller.edu/education-and-training/ssrp/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Rockefeller University Summer Science Research Program (SSRP)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>February 1<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free ($3,000 stipend provided)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.stonybrook.edu/simons" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Simons Summer Research Fellowship at Stony Brook</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Early February<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (stipend of $1,500-$2,000 provided; commuter meal plan may be included)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://simr.stanford.edu/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Stanford Institutes of Medicine Summer Research Program (SIMR)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Late February<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free for all accepted participants ($40 application fee; waivers available)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://ssp.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Summer Science Program (SSP)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Early February<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$11,800 (all-inclusive: tuition, room, board, supplies)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://precollege.uchicago.edu/ribs" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">UChicago Research in the Biological Sciences (RIBS)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Mid-January<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$6,500 (tuition; plus room/board ~$2,000)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://mentorconnecticut.uconn.edu/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">UConn Mentor Connecticut Research Program</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>February/March<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (funded program)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://precollege.uconn.edu/mentor-connection" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">UConn Mentor Connection</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Likely February 2026 (based on prior years, typically mid-to-late February). 2026 dates TBD.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$3,500-$4,500 for 3-4 week residential program</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://health.uconn.edu/mstp/education/smart-program/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">UConn SMART Program (Summer Medical and Research Training)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>January/February<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (funded program)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://summer.ucsb.edu/programs/research-mentorship-program" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">UCSB Research Mentorship Program (RMP)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>March 1 (priority) / March 15 (final)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$6,500 (tuition) + $2,500-$3,000 (housing/meals optional)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.newhaven.edu/admissions-aid/pre-college-programs/national-security-summer-institute/index.php" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">University of New Haven National Security Summer Institute (NSSI) - Forensic Science Track</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Likely opens spring 2026. 2025 program ran July 13-18 and July 20-25. Expect similar 2026.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$2,000-$2,500 (estimated; check website for exact 2026 pricing)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.wesleyan.edu/precollege/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Wesleyan University Pre-College Summer Session - Biology Courses</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration opens early spring 2026. Courses run late May-early June and late June-early August.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Credit courses: ~$4,000-$6,000 per course. Non-credit enrichment: ~$2,500-$3,500.</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.yale.edu/yalepathways" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Yale Pathways to Science Scholars</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Applications open Fall 2025. Deadline typically early February 2026 (for Summer 2026 session).<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">FREE (all meals, housing, materials covered; travel assistance available)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">minority</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://globalscholars.yale.edu/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Yale Young Global Scholars (YYGS)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Applications open September/October 2025. 2026 dates TBD.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">~$6,700-$7,000 (includes tuition, room, board, meals)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-general_competitions" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">General</h2>
+    <span style="color:#4a5260;font-size:13px;">9 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://bigfuture.collegeboard.org/scholarships-grants-aid/national-recognition-programs" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">College Board National Recognition Programs</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Applications open in early fall of each year. PSAT scores from fall junior year used.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"><span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">indian_origin</span> <span style="background:#1a1a3a;color:#8b8bff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:4px;">kids_of_immigrants</span> </td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.ctbar.org/for-the-public/community/mock-trial" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Connecticut Bar Association High School Mock Trial Competition</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration opens September 2025. Case materials released Fall 2025. Competition runs January-March 2026.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free to participate (school registers team)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://ctenvirothon.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Connecticut Envirothon</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration typically opens September 2025. Regional competitions April 2026, State competition May 2026.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free for state competition (sponsored by CT DEEP and partners); team covers transportation</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://ctinventionconvention.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Connecticut Invention Convention (CIC) - High School Division</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration opens Fall 2025. School-level competitions Winter 2025-2026. State finals April 2026 at UConn.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free to participate (school-coordinated)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://csef.uconn.edu/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Connecticut Science &amp; Engineering Fair (CSEF)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration opens October/November 2025 for 2026 fair. School-level deadlines vary.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free to participate (school-coordinated registration)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.ctscienceolympiad.org/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Connecticut Science Olympiad</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration deadline: December 15, 2025. Payment deadline: December 15, 2025.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$325 per team (CT registration) + $75 per team (National fee) = ~$400 per team; schools typically fund this</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.jshs.org/connecticut" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">CT Junior Science &amp; Humanities Symposium (JSHS)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Call for papers: late Oct 2025. Paper submission: early Dec 2025. CT regional symposium: March 2026.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (no registration fee; school covers travel)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://nebio.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">New England Bio-Olympiad (NEBio)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Registration opens late fall 2025 (Oct/Nov). Open Round typically January/February 2026.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">Free (no registration fee)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.yaledebate.org" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Yale Invitational Debate Tournament</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>Typically September 2025 (for 2025 tournament). Check site for 2026 dates.<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">School/team registration fee varies (~$50-$150 per entry)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr></tbody>
+    </table>
+  </div>
+</div><div class="tab-panel" id="tab-fencing" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-size:18px;font-weight:500;color:#e8eaed;font-family:'DM Serif Display',serif;">Fencing</h2>
+    <span style="color:#4a5260;font-size:13px;">12 opportunities</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Opportunity</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Deadline</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Cost</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Prep Needed</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Ethnic</th>
+      </tr></thead>
+      <tbody><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.usafencing.org/national-championships" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">2026 USA Fencing Summer National Championships</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f0a500;margin-right:6px;"></span>2026-06-01 (14d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">TBD (typically $100-$200 registration + travel/lodging)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.nationalfencingalliance.com/summer-camp-2026" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">National Fencing Alliance Elite Summer Camp 2026</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f0a500;margin-right:6px;"></span>2026-06-01 (14d)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">TBD (~$2,000-$2,500 estimated based on past years)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://cthsfencing.com" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">2026 CHSFA Connecticut High School Individual State Championship</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">TBD (school/team registration)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.usafencing.org/junior-olympic-national-championships" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">2026 USA Fencing Junior Olympic National Championships</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#3a3000;color:#f0c040;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">⚠ prior year date</span><span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">TBD (typically $100-$200 registration + travel/lodging)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.epicfencingclub.com/epic-youth-fencing-camp" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Epic Youth Fencing Multi-College Camp Tour</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD (typically opens early 2026)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">TBD (~$1,800-$2,200 estimated)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://myfencingcenter.com/youth-competitive/" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">My Fencing Center Youth Competitive Program (Westport, CT)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">TBD (contact club)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.ofencing.com/programs" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Olympic Fencing Institute Competitive Program (Plainville, CT)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">$100 annual registration + monthly fees: 1 day/wk $125, 2 days $210, 3 days $275, unlimited $375. 20% discount for additional family members.</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.pennstatefencingcamps.com" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Penn State Fencing Camp (College Recruiting Camp)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD (typically opens Spring 2026)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">TBD (typically $800-$1,200 for multi-day camp)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.timmorehousefencing.com/competitive" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Tim Morehouse Fencing Club Connecticut Competitive Program (2026 Season)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">TBD (contact club; high-income program with private lessons, multiple practice slots per week)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.usafencing.org/north-american-cup" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">USA Fencing 2025-2026 North American Cup (NAC) Series</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD (per event, typically 4-6 weeks before)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">TBD (typically $100-$200 per event + travel)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.usafencing.org/events/2025-2026-regional-circuit" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">USA Fencing 2025-2026 RYC/RJCC Regional Circuit (New England)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD (per event, typically 2-3 weeks before)<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">TBD (typically $40-$80 per event registration)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr><tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="https://www.zeta-fencing.com" target="_blank" rel="noopener" style="color:#e8eaed;text-decoration:none;font-weight:500;font-size:13px;">Zeta Fencing Competitive Program (Westport, CT)</a></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#4a5260;margin-right:6px;"></span>TBD<span style="background:#0a2e1a;color:#3ecf8e;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;margin-left:6px;">🆕 New</span></td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">TBD (contact club)</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">—</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;"></td>
+</tr></tbody>
+    </table>
+  </div>
+</div>
+
+  
+
+  <footer>
+    <p>Ivy-2028 Weekly Researcher — Generated 2026-05-18</p>
+    <p style="margin-top:4px;">Many programs show prior-year dates. Official 2026-2027 deadlines are published as sites update. Verify on official sites before acting.</p>
+  </footer>
+</div>
+
+<script>
+(function() {
+  var tabs = document.querySelectorAll('.tab');
+  var panels = document.querySelectorAll('.tab-panel');
+  tabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      tabs.forEach(function(t) { t.style.background='#15171a'; t.style.color='#64748b'; t.style.borderColor='#2a2d33'; });
+      this.style.background='#1c1f23'; this.style.color='#e8eaed'; this.style.borderColor='#353940';
+      panels.forEach(function(p) { p.style.display='none'; });
+      var target = document.getElementById('tab-' + this.getAttribute('data-tab'));
+      if (target) target.style.display='block';
+    });
+  });
+})();
+</script>
+</body>
+</html>
