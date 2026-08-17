@@ -171,6 +171,15 @@ def get_gone_opportunities(run_date: str, db_path: str | None = None) -> list[di
     return [dict(r) for r in rows]
 
 
+def get_all_opportunities(db_path: str | None = None) -> list[dict]:
+    """Every opportunity ever found, deduped by URL, oldest first."""
+    with get_conn(db_path) as conn:
+        rows = conn.execute(
+            "SELECT url, name, category, first_seen_run_date FROM opportunities ORDER BY category, name"
+        ).fetchall()
+    return [dict(r) for r in rows]
+
+
 def compute_wow_statuses(opps: list[dict], prev_opps: dict[str, dict]) -> dict[str, str]:
     """
     Compare current opportunities vs previous run.

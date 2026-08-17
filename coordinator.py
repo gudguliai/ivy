@@ -18,7 +18,7 @@ from typing import Optional
 from db import (
     init_db, insert_run, get_previous_run_dates, get_run_opportunities,
     compute_wow_statuses, save_opportunity, save_run_opportunities,
-    detect_gone, get_gone_opportunities, detect_ethnic_tags,
+    detect_gone, get_gone_opportunities, get_all_opportunities, detect_ethnic_tags,
 )
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -439,7 +439,7 @@ def _render_name_and_badge(opp: dict) -> str:
     return f"<span style=\"color:#9aa0a6;font-weight:500;font-size:14px;\">{name}{badge_str}</span>"
 
 
-def generate_html(opps: list[dict], run_date: str, agent_name: str = "ivy_2028", gone_opps: list[dict] | None = None) -> str:
+def generate_html(opps: list[dict], run_date: str, agent_name: str = "ivy_2028", gone_opps: list[dict] | None = None, archive_opps: list[dict] | None = None) -> str:
     """Dark theme HTML matching the v2 spec aesthetic."""
     by_cat: dict[str, list[dict]] = {}
     for opp in opps:
@@ -547,6 +547,37 @@ def generate_html(opps: list[dict], run_date: str, agent_name: str = "ivy_2028",
   <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:12px;">{ethnic_badges}</td>
 </tr>"""
         return rows
+
+    def _archive_panel(archive_opps):
+        if not archive_opps:
+            return ""
+        rows = "".join(
+            f"""<tr>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">{_escape(a.get('name','Unknown'))}</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#8a9099;font-size:13px;">{_cat_label(a.get('category','unknown'))}</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;color:#4a5260;font-size:12px;">Since {a.get('first_seen_run_date','?')}</td>
+  <td style="padding:10px 12px;border-bottom:1px solid #2a2d33;"><a href="{_escape(a.get('url',''))}" target="_blank" rel="noopener" style="color:#38bdf8;font-size:12px;text-decoration:none;">Open &rarr;</a></td>
+</tr>"""
+            for a in archive_opps
+        )
+        return f"""<div class="tab-panel" id="tab-archive" style="display:none;">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;">
+    <h2 style="font-family:'DM Serif Display',serif;font-size:22px;font-weight:400;color:#8a9099;">🗂️ Archive — Every Opportunity Ever Found</h2>
+    <span style="color:#4a5260;font-size:13px;">{len(archive_opps)} programs</span>
+  </div>
+  <p style="color:#4a5260;font-size:12px;margin-bottom:16px;">All opportunities accumulated across every run — kept forever with live links, even if not in this week's search.</p>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="border-bottom:1px solid #353940;">
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Name</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Category</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Since</th>
+        <th style="padding:10px 12px;text-align:left;color:#4a5260;font-size:10px;text-transform:uppercase;letter-spacing:0.05em;font-weight:400;">Link</th>
+      </tr></thead>
+      <tbody>{rows}</tbody>
+    </table>
+  </div>
+</div>"""
 
     def _gone_panel(gone_opps):
         if not gone_opps:
@@ -673,6 +704,7 @@ footer {{ text-align:center; padding:24px; color:#4a5260; font-size:11px; border
     <button class="tab active" data-tab="attention" style="color:#f0a500;border-color:#f0a500;background:#1a1700;">⚠️ Attention ({len(attention)})</button>
     {cat_tabs}
     {f'<button class="tab" data-tab="gone" style="color:#4a5260;">💀 Gone ({len(gone_opps)})</button>' if gone_opps else ''}
+    {f'<button class="tab" data-tab="archive" style="color:#4a5260;">🗂️ Archive ({len(archive_opps)})</button>' if archive_opps else ''}
   </div>
 
   <div class="tab-panel" id="tab-attention" style="display:block;">
@@ -686,6 +718,8 @@ footer {{ text-align:center; padding:24px; color:#4a5260; font-size:11px; border
   {cat_panels}
 
   {_gone_panel(gone_opps) if gone_opps else ''}
+
+  {_archive_panel(archive_opps) if archive_opps else ''}
 
   <footer>
     <p>{agent_name.replace('_',' ').title()} Weekly Researcher — Generated {run_date}</p>
@@ -808,6 +842,7 @@ def main():
         detect_gone(run_date, current_urls, prev_dates[0], db_path=db_path)
 
     gone_opps = get_gone_opportunities(run_date, db_path=db_path)
+    archive_opps = get_all_opportunities(db_path=db_path)
 
     tier_counts: dict[str, int] = {}
     for opp in opps:
@@ -816,7 +851,7 @@ def main():
     for tk in ["action", "prep", "watch", "ct_local"]:
         print(f"  {tk}: {tier_counts.get(tk, 0)}", flush=True)
 
-    html = generate_html(opps, run_date, agent_name, gone_opps)
+    html = generate_html(opps, run_date, agent_name, gone_opps, archive_opps)
     csv_content = generate_csv(opps)
 
     html_path = os.path.join(OUTPUT_DIR, f"{run_date}-{agent_name}-digest.html")
