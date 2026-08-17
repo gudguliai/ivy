@@ -40,6 +40,10 @@ Search terms: CT scholarships, Yale CT programs, UConn research, New England com
 **9. fencing**
 Search terms: USA Fencing tournaments, CT fencing competitions, New England circuit, Junior Olympics, NAC series, fencing camps, CT high school fencing
 
+**10. tech_ai**
+Search terms: Unreal Engine student competitions / high school, game dev / game design contests for teens, game jams (Unity/Unreal/Godot), MIT Media Lab programs, worldbuilding contests, AI competitions for high school, USACO, Congressional App Challenge, TechRise, hackathons for teens, FIRST/FTC robotics
+Notes: Unreal Engine, game development, MIT Media Lab, worldbuilding, and general tech/AI in one section. Creative writing is already covered in writing_humanities.
+
 ### Extraction Schema
 Each subagent must extract these fields per opportunity:
 - name, category, url, snippet, deadline, cost, aid, eligibility, eligibility_note, notes, source
@@ -50,7 +54,7 @@ Write JSON array to `/tmp/ivy-2028/<agent>/<date>/<category>.json`.
 ### Execution Flow
 
 1. **Create artifacts directory**: `mkdir -p /tmp/ivy-2028/ivy_2028/$(date +%Y-%m-%d)`
-2. **Spawn 9 subagents in parallel** — one per category above. Each agent:
+2. **Spawn 10 subagents in parallel** — one per category above. Each agent:
    - Uses WebSearch + WebFetch to find real opportunities (reads actual page content)
    - Filters out low-income-only / need-based programs per category notes
    - Extracts all fields from the schema above

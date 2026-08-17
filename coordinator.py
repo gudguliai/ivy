@@ -32,6 +32,8 @@ CATEGORY_LABELS = {
     "writing_humanities": "Writing & Humanities",
     "summer_programs": "Summer Programs",
     "general_competitions": "General",
+    "ct_local": "CT Local",
+    "tech_ai": "Tech / AI",
     "fencing": "Fencing",
 }
 
@@ -578,7 +580,7 @@ def generate_html(opps: list[dict], run_date: str, agent_name: str = "ivy_2028",
     cat_tabs = ""
     cat_panels = ""
     first = True
-    for cat_key in ["science_math", "scholarships", "law_civics", "exams", "writing_humanities", "summer_programs", "general_competitions", "fencing"]:
+    for cat_key in ["science_math", "scholarships", "law_civics", "exams", "writing_humanities", "summer_programs", "general_competitions", "ct_local", "tech_ai", "fencing"]:
         items = by_cat.get(cat_key, [])
         label = _cat_label(cat_key)
         active = " background:#1c1f23;color:#e8eaed;" if first else ""
@@ -613,7 +615,7 @@ def generate_html(opps: list[dict], run_date: str, agent_name: str = "ivy_2028",
         f'<div style="background:#1a1d23;border:1px solid #2a2d33;border-radius:6px;padding:8px 14px;">'
         f'<span style="display:block;font-size:18px;font-weight:600;color:#e8eaed;">{len(by_cat.get(k,[]))}</span>'
         f'<span style="font-size:11px;color:#4a5260;">{_cat_label(k)}</span></div>'
-        for k in ["science_math", "scholarships", "law_civics", "exams", "writing_humanities", "summer_programs", "general_competitions", "fencing"]
+        for k in ["science_math", "scholarships", "law_civics", "exams", "writing_humanities", "summer_programs", "general_competitions", "ct_local", "tech_ai", "fencing"]
     )
 
     html = f"""<!DOCTYPE html>
