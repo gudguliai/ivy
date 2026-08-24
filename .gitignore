@@ -1,5 +1,4 @@
-__pycache__/
-*.pyc
-*.db
-.env*
-.DS_Store
+ivy_2028.db
+ivy_2028.db-shm
+ivy_2028.db-wal
+/tmp/
