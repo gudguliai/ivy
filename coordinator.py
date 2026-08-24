@@ -872,6 +872,12 @@ def main():
     with open(csv_path, "w") as f:
         f.write(csv_content)
 
+    # Stable alias so the site can always link to the latest digest
+    latest_path = os.path.join(OUTPUT_DIR, f"latest-{agent_name}-digest.html")
+    with open(latest_path, "w") as f:
+        f.write(html)
+    print(f"Stable alias: {latest_path}", flush=True)
+
     print(f"\nHTML: {html_path}", flush=True)
     print(f"CSV:  {csv_path}", flush=True)
 
