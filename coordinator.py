@@ -566,6 +566,8 @@ def generate_html(opps: list[dict], run_date: str, agent_name: str = "ivy_2028",
     <span style="color:#4a5260;font-size:13px;">{len(archive_opps)} programs</span>
   </div>
   <p style="color:#4a5260;font-size:12px;margin-bottom:16px;">All opportunities accumulated across every run — kept forever with live links, even if not in this week's search.</p>
+  <input id="archiveSearch" type="text" placeholder="🔍 Search archive (name, category, link)…" oninput="filterArchive(this)"
+    style="width:100%;max-width:420px;padding:10px 14px;margin-bottom:16px;background:#15171a;border:1px solid #2a2d33;border-radius:6px;color:#e8eaed;font-size:13px;outline:none;">
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;font-size:13px;">
       <thead><tr style="border-bottom:1px solid #353940;">
@@ -577,7 +579,15 @@ def generate_html(opps: list[dict], run_date: str, agent_name: str = "ivy_2028",
       <tbody>{rows}</tbody>
     </table>
   </div>
-</div>"""
+</div>
+<script>
+function filterArchive(inp){{
+  var q = (inp.value || '').toLowerCase();
+  document.querySelectorAll('#tab-archive tbody tr').forEach(function(tr){{
+    tr.style.display = tr.textContent.toLowerCase().indexOf(q) > -1 ? '' : 'none';
+  }});
+}}
+</script>"""
 
     def _gone_panel(gone_opps):
         if not gone_opps:
